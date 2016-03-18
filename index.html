@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ad Hoc Signager</title>
+    <link rel="stylesheet" href="css/vegas.min.css">
+<style>
+h1 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+address {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background:
+        no-repeat
+        bottom right
+        url( img/miladoll-minibanner.png )
+    ;
+    background-size: contain;
+    width: 160px;
+    height: 60px;
+}
+</style>
+</head>
+<body>
+<h1>Ad Hoc Signager</h1>
+<address>MILA DOLL</address>
+<script src="js/jquery-2.2.2.min.js"></script>
+<script src="js/vegas.min.js"></script>
+<script>
+$(function() {
+    $('body').vegas({
+        preloadImage : true,
+        delay : 8000,
+        cover : false,
+        transitionDuration : 1000,
+        overlay: 'img/vegas-overlays/01.png',
+        transition: 'blur',
+        animation: 'kenburns',
+        animationDuration: 1500,
+        slides : [
+            { src : 'img/chuchu.jpg' },
+            { src : 'img/cyan.jpg' },
+            { src : 'img/more.jpg' },
+            { src : 'img/retlie.jpg' }
+        ]
+    });
+});
+</script>
+</body>
+</html>
