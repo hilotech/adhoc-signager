@@ -1,3 +1,3 @@
 # adhoc-signager
 
-http://hilotech.github.io/adhoc-signager/index.html
+https://hilotech.github.io/adhoc-signager/index.html
